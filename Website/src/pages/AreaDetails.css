@@ -1,0 +1,205 @@
+.surat1 {
+    width: 97.3%;
+    padding: 20px;
+    background-color: var(--color-gainsboro);
+    font-family: var(--font-dm-serif-display);
+    color: var(--color-darkolivegreen);
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 134px;
+    height: 118px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.title {
+    position: absolute;
+    top: 128px;
+    left: 20px;
+    display: inline-block;
+    width: 219px;
+    height: 65.8px;
+    font-size: 24px;
+    color: var(--color-darkolivegreen);
+}
+
+.area-name {
+    font-size: 32px;
+    margin-left: 10px;
+    color: var(--color-black);
+}
+
+.satellite-view-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+
+.satellite-view-btn, .street-view-btn {
+    background: linear-gradient(100.33deg, #538392, rgba(0, 71, 255, 0.26));
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--br-base);
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: lighter;
+    margin: 0 10px; 
+}
+
+.satellite-view-btn:hover, .street-view-btn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-container {
+    margin-top: 10px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #fff;
+    color: var(--color-darkolivegreen);
+    width: 200px; /* Adjust width as needed */
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white; 
+    border-radius: var(--br-base);
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+    padding: 20px;
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    color: var(--color-darkolivegreen); 
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; 
+    z-index: 1;
+}
+
+.card1::before {
+    background-image: url('D:/sonia/earthally/public/registration-land-details.webp');
+}
+
+.card2::before {
+    background-image: url('D:/sonia/earthally/public/Like-a-seedling-breaking-through-the-soil--individ_1699725852880_1703576716584.webp');
+}
+
+.card3::before {
+    background-image: url('D:/sonia/earthally/public/seawater-benefits.jpg');
+}
+
+.card4::before {
+    background-image: url('D:/sonia/earthally/public/download.jpeg');
+}
+
+.card5::before {
+    background-image: url('D:/sonia/earthally/public/WhatsApp-Image-2023-10-18-at-6.34.35-PM-1.avif');
+}
+
+.card6::before {
+    background-image: url('D:\sonia\earthally\public\images.jpeg');
+}
+
+.card-content {
+    position: relative;
+    z-index: 2;
+}
+
+.card h2 {
+    font-size: 24px;
+    color: var(--color-black);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: var(--color-darkolivegreen);
+    margin: 5px 0;
+    color: black;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.module {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.module p {
+    margin: 5px 0;
+}
+
+.forecast, .pollutant {
+    flex: 1 1 calc(50% - 20px);
+    padding-bottom: 40px;
+}
+
+.top-left-image {
+    position: absolute;
+    top: 20px;
+    left: 1070px;
+}
+
+.top-left-image img {
+    width: 400px;
+    height: auto;
+}
+
+.satellite-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.satellite-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: var(--br-base);
+    box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px; 
+}

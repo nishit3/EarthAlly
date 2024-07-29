@@ -1,0 +1,206 @@
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  height: 762px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 40px;
+  color: var(--color-darkolivegreen);
+  font-family: var(--font-dm-serif-display);
+}
+
+.carousel {
+  width: 319px; 
+  height: 360px; 
+  overflow: hidden;
+  position: absolute;
+  top: 150px; 
+  left: 80%;
+  transform: translateX(-50%);
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 300ms ease-out;
+}
+
+.carousel-image {
+  width: 319px; 
+  height: 360px; 
+  flex-shrink: 0;
+}
+
+.image-9-icon1 {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  width: 171px;
+  height: 151px;
+  object-fit: cover;
+}
+
+.earthally1 {
+  top: 130px;
+  left: 72px;
+  width: 243px;
+  height: 73px;
+}
+
+.earthally1,
+.login1,
+.protecting-our-planet {
+  position: absolute;
+  display: inline-block;
+}
+
+.protecting-our-planet {
+  top: 526px;
+  left: 963px;
+  font-size: 50px;
+  text-align: center;
+  width: 469px;
+  height: 178px;
+}
+
+.login1 {
+  top: 193px;
+  left: 452px;
+  font-size: 50px;
+  width: 436px;
+  height: 114px;
+}
+
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-lavender);
+  width: 567.8px;
+  height: 91.6px;
+}
+
+.password {
+  position: absolute;
+  top: 33.7px;
+  left: 83px;
+  display: inline-block;
+  width: 190px;
+  height: 32px;
+}
+
+.frame-icon {
+  position: absolute;
+  top: 30.7px;
+  left: 34px;
+  width: 37.4px;
+  height: 42.3px;
+  overflow: hidden;
+}
+
+.rectangle-parent1,
+.username {
+  position: absolute;
+  top: 107px;
+  left: 0;
+  width: 467.8px;
+  height: 91.6px;
+}
+
+.username {
+  top: 35px;
+  left: 3px;
+  display: inline-block;
+  width: 182px;
+  height: 32px;
+}
+
+.password {
+  top: -100px;
+  left: 3px;
+  display: inline-block;
+  width: 182px;
+  height: 32px;
+}
+
+input.rectangle-parent1 {
+  border-radius: 20px;
+  padding-left: 90px;
+  font-size: 30px;
+}
+
+input.rectangle-parent2 {
+  border-radius: 20px;
+  padding-left: 90px;
+  font-size: 30px;
+}
+
+.frame-icon1 {
+  position: absolute;
+  top: 13px;
+  left: 34px;
+  width: 37.4px;
+  height: 42.3px;
+  overflow: hidden;
+}
+
+.group-child4,
+.rectangle-parent2 {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 467.8px;
+  height: 91.6px;
+}
+
+.group-child4 {
+  box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+  border-radius: var(--br-base);
+  background: linear-gradient(100.33deg, #688d54, rgba(104, 141, 84, 0.26));
+  width: 193.4px;
+}
+
+.login2,
+.rectangle-parent3 {
+  position: absolute;
+  cursor: pointer;
+}
+
+.login2 {
+  top: -30px;
+  left: 58px;
+  display: inline-block;
+  width: 128px;
+  height: 48px;
+}
+
+.rectangle-parent3 {
+  top: 316px;
+  left: 160px;
+  width: 193.4px;
+  height: 91.6px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+
+.forgot-password,
+.group-parent {
+  position: absolute;
+  top: 343px;
+  left: 243px;
+  width: 567.8px;
+  height: 517.6px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}
+
+.forgot-password {
+  top: 627px;
+  left: 591px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 275px;
+  height: 25px;
+}

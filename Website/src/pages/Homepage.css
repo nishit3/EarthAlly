@@ -1,0 +1,249 @@
+.image-9-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 134px;
+  height: 118px;
+  object-fit: cover;
+}
+
+.earthally {
+  position: absolute;
+  top: 118px;
+  left: 8px;
+  display: inline-block;
+  width: 219px;
+  height: 65.8px;
+}
+
+.image-9-parent {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 227px;
+  height: 183.8px;
+  color: var(--color-darkolivegreen);
+}
+
+.modules-data-areawise {
+  position: absolute;
+  top: 201px;
+  left: 39px;
+  font-size: var(--font-size-26xl);
+  display: inline-block;
+  width: 564px;
+  height: 73px;
+}
+
+.container{
+  margin: 300px 30px;
+}
+
+.rectangle-div {
+  background-color: var(--color-cadetblue);
+  border-radius: var(--br-xl);
+  margin-top: 30px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  
+}
+
+
+.homepage-item ,
+.search-area  {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 447.8px;
+  height: 51.6px;
+  
+}
+
+.search-area {
+  position: absolute;
+  top: 201px;
+  left: 952px;
+  font-size: var(--font-size-6xl);
+  
+    display: flex;
+    align-items: center;
+    position: relative;
+  
+}
+
+input.homepage-item {
+  border-radius: 50px;
+  padding-left: 30px;
+  font-size: 20px;
+  background-color: var(--color-cadetblue);
+  border: none;
+}
+
+.vector-icon {
+  position: absolute;
+  height: 2.63%;
+  width: 1.71%;
+  top: 19.85%;
+  right: 7.45%;
+  bottom: 76.54%;
+  left: 92.85%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+
+.rectangle-div {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 30px; 
+}
+
+.satellite-view-button {
+  background: linear-gradient(100.33deg, #538392, rgba(0, 71, 255, 0.26));
+  color: white;
+  border: none;
+  box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+  border-radius: var(--br-base);
+  padding: 10px 15px; 
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+
+
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  height: 100%; 
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-serif-display);
+}
+
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 8px 21px rgba(0, 0, 0, 0.16);
+  border-radius: var(--br-base);
+  background: linear-gradient(100.33deg, #538392, rgba(0, 71, 255, 0.26));
+  width: 248.8px;
+  height: 81px;
+}
+.satellite-view {
+  position: absolute;
+  top: 20px;
+  left: 18.6px;
+  display: inline-block;
+  width: 232.5px;
+  height: 48px;
+  cursor: pointer;
+  
+}
+.group-div,
+.rectangle-container,
+.rectangle-group,
+.rectangle-parent {
+  position: absolute;
+  top: 285px;
+  left: 1147px;
+  width: 248.8px;
+  height: 81px;
+  cursor: pointer;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.group-div,
+.rectangle-container,
+.rectangle-group {
+  top: 461px;
+}
+.group-div,
+.rectangle-container {
+  top: 616px;
+}
+.group-div {
+  top: 771px;
+}
+
+.top-left-imagee {
+  position: absolute;
+  top: 10px;
+  left: 1150px;
+}
+
+.top-left-imagee img {
+  width: 300px;
+  height: auto;
+}
+
+.notification-count {
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 5px;
+  font-size: 15px;
+}
+
+.notification-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.notification-icon {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+
+.notification-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #E3E1E1;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 75px;
+  right: 0;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.notification-container:hover .notification-dropdown {
+  display: block;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.notification-item .date {
+  color: #888;
+  font-size: 12px;
+}
+
