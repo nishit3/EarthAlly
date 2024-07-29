@@ -1,0 +1,51 @@
+{
+ "areaUID": "a1",
+ "aqi_modules": {
+  "m1": {
+   "address": "Visat Circle",
+   "AQI": 70,
+   "aqi_forecast": 101,
+   "CO": 0.629999995,
+   "humd": 64,
+   "NH3": 6.380000114,
+   "NO2": 15.35999966,
+   "O3": 23.55999947,
+   "PM10": 63.95999908,
+   "PM2.5": 50.95000076,
+   "significant_pollutant": "PM2.5",
+   "SO2": 43.13000107,
+   "temp": 33
+  }
+ },
+ "cam_modules": {
+  "a1c1": "New CG Rd, Chandkheda, Ahmedabad, Gujarat 382424",
+  "a1c2": "4D Square Mall, Motera, Ahmedabad, Gujarat 380005"
+ },
+ "deforestation_index": 31.759208312299155,
+ "details": {
+  "address": "Sabarmati, Ahmedabad, Gujarat, India 380005",
+  "lat": 23.090667274037536,
+  "lng": 72.58545088110739,
+  "name": "Sabarmati"
+ },
+ "soil_modules": {
+  "m1": {
+   "address": "Mahavir nagar",
+   "moisture": 0
+  },
+  "m2": {
+   "address": "Visat Circle",
+   "moisture": 50
+  }
+ },
+ "water_modules": {
+  "m1": {
+   "address": "ONGC avani bhavan",
+   "pH": 13,
+   "TDS": 25000,
+   "turbidity": 4
+  }
+ },
+ "weather_condition": "rain",
+ "wind_speed": 9.2
+}
