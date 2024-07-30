@@ -22,7 +22,7 @@ def lambda_handler(event, context):
             "zoom": "14",
             "size": "400x400",
             "maptype": "satellite",
-            "key": "AIzaSyCrXQtp1P8g2eeZNE3Gm18sfiBdDgCoEZs"
+            "key": "GOOGLE_MAPS_API_KEY"
         }
         query_string = "&".join([f"{key}={value}" for key, value in params.items()])
         url = f"/maps/api/staticmap?{query_string}"
