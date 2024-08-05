@@ -33,19 +33,22 @@ Deep Learning and IoT based environment monitoring and predicting system
 11) Water System Diagram
 ![SA-water-module](https://github.com/user-attachments/assets/b119b334-61b6-4184-b68f-92e3f8b6941a)
 
-12) Cam Module IoT Diagram
+12) Water Module
+![water_module_photo](https://github.com/user-attachments/assets/2f7a47b5-1f87-40e5-bde5-309e3f4ca985)
+
+13) Cam Module IoT Diagram
 ![Street cam module photo](https://github.com/user-attachments/assets/b8751cf4-9b86-434f-9a9a-93761dd77b48)
 
-13) Cam Module System Diagram
+14) Cam Module System Diagram
 ![ea_street_cam_module](https://github.com/user-attachments/assets/8bd4f3e4-e03e-411d-9065-84d76374f053)
 
-14) Satellite Image Handler 
+15) Satellite Image Handler 
 ![satellite_image_processor](https://github.com/user-attachments/assets/2cfcd255-f9b9-4552-afa3-3e1d08975dcc)
 
-15) Mobile App System Diagram
+16) Mobile App System Diagram
 ![Mobile App (1)](https://github.com/user-attachments/assets/ac2e7066-4417-4904-9422-bb8c889be481)
 
-16) Website App System Diagram
+17) Website App System Diagram
 ![website-sys-arch](https://github.com/user-attachments/assets/ab868f27-41f6-49aa-9abe-907b9a52061b)
 
 
