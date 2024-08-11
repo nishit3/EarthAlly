@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen>
 
   void _fetchAllAreasDetails() async {
     final response = await http.get(
-      Uri.parse('https://7l9qpd8im3.execute-api.ap-south-1.amazonaws.com/prod/get-areas-basic-information'),
+      Uri.parse('https://ENDPOINT/prod/get-areas-basic-information'),
     );
     final responseBody = await jsonDecode(response.body);
     final allAreaDetails = await responseBody["areasBasicInformation"];
