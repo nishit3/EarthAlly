@@ -16,7 +16,7 @@ def lambda_handler(event, context):
         areaUID = area["areaUID"]
         lat = areaDetails['lat']
         lng = areaDetails['lng']
-        path = f"/VisualCrossingWebServices/rest/services/timeline/{lat},{lng}?iconSet=icons2&key=UTRUH8EVT4RXRJ8GM7WX8YKZ5"
+        path = f"/VisualCrossingWebServices/rest/services/timeline/{lat},{lng}?iconSet=icons2&key=KEY"
         conn = http.client.HTTPSConnection(api_url)
         conn.request("GET", path)
         response = conn.getresponse()
