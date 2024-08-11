@@ -5,7 +5,7 @@
 const int moisture_pin = 32;
 const char* ssid = "EA-Project";
 const char* password = "projectea";
-const char* host = "7l9qpd8im3.execute-api.ap-south-1.amazonaws.com";
+const char* host = "ENDPOINT";
 const int httpsPort = 443;
 
 
