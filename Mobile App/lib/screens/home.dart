@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<dynamic> _fetchAreaData() async {
     final response = await http.get(
       Uri.parse(
-          'https://7l9qpd8im3.execute-api.ap-south-1.amazonaws.com/prod/get-specific-area-data?areaUID=${widget.areaUID}'),
+          'https://ENDPOINT/prod/get-specific-area-data?areaUID=${widget.areaUID}'),
     );
     final responseBody = await jsonDecode(response.body);
     return responseBody;
