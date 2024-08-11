@@ -28,7 +28,7 @@ class _AlertScreenState extends State<AlertsScreen>{
 
     final response = await http.get(
       Uri.parse(
-          'https://7l9qpd8im3.execute-api.ap-south-1.amazonaws.com/prod/get-alerts?areaUID=${widget.areaUID}'),
+          'https://ENDPOINT/prod/get-alerts?areaUID=${widget.areaUID}'),
     );
     final responseBody = await jsonDecode(response.body);
     final alertsData = await responseBody["alerts"];
